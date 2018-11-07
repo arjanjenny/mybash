@@ -12,7 +12,7 @@ function start_agent {
     /usr/bin/ssh-add;
 }
 #Arjan-PC for local.
-if [ "$host" = "Arjan-PC" ] ; then
+if [ "$host" = "Arjan-PC" ] || [ "$host" = "Arjan-Laptop" ] ; then
     if [ -f "${SSH_ENV}" ]; then
         . "${SSH_ENV}" > /dev/null
         #ps ${SSH_AGENT_PID} doesn't work under cywgin
