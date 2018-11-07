@@ -1,0 +1,6 @@
+sqpeople@sqpeople.nl,~/www
+thesales@thesalesunit.nl,~/www
+emolifestreet@emolifestreet.nl,~/www
+activate@activate.be,~/www
+activate@activate.be,~/subdomains/fr
+activgermany@activatedeutschland.de,~/www
